@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>TYPING Test</title>
+  <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+   <header class="container">
+     <h1>Typing test</h1>
+
+      <div class="controls">
+        <button onclick="startTest()">START</button>
+       <label for="mode"> Select mode :</label>
+       <select id="mode">
+         <option value="easy">easy</option>
+         <option value="medium">Medium</option>
+         <option value="hard">hard</option>
+       </select>
+      </div>
+
+    <div id="word-display" class="word-display"></div>
+
+    <input type="text" id="input-field" placeholder="Tape ici..." aut="on" />
+
+    <div id="results" class="results"></div>
+   </header>
+
+  <script src="exam.js"></script>
+</body>
+</html>
