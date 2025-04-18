@@ -26,6 +26,10 @@ body {
   h1 {
     margin-bottom: 60px;
     color: #00ffff;
+    border: solid red;
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 150px;
   }
   
   .controls {
