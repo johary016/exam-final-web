@@ -38,7 +38,7 @@ const startTest = (wordCount = 30) => {
     previousEndTime = null;
 
     for (let i = 0; i < wordCount; i++) {
-        wordsToType.push(getRandomWords(modeSelect.value)); // commence en 
+        wordsToType.push(getRandomWords(modeSelect.value)); 
     }
 
     wordsToType.forEach((word, index) => {
